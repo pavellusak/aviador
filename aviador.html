@@ -1,0 +1,73 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aviator Colombia</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: "Arial", sans-serif;
+            height: 100%;
+            overflow: hidden;
+        }
+
+        .background {
+            background: linear-gradient(-45deg, #ff416c, #ff4b2b, #1d2b64, #f8cdda);
+            background-size: 400% 400%;
+            animation: gradientBG 10s ease infinite;
+            height: 100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        @keyframes gradientBG {
+            0% {background-position: 0% 50%;}
+            50% {background-position: 100% 50%;}
+            100% {background-position: 0% 50%;}
+        }
+
+        .cta-button {
+            margin-top: 30px;
+            padding: 15px 30px;
+            font-size: 20px;
+            background-color: #00c851;
+            color: white;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            text-decoration: none;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+            transition: background 0.3s ease;
+        }
+
+        .cta-button:hover {
+            background-color: #007e33;
+        }
+
+        .image {
+            max-width: 300px;
+            margin-bottom: 20px;
+            border-radius: 12px;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+        }
+    </style>
+</head>
+<body>
+    <div class="background">
+        <img src="https://i.imgur.com/XuHdhzL.png" alt="Aviator Win" class="image">
+        <h1>🎉 ¡Conviértete en el próximo ganador de Aviator!</h1>
+        <p>Miles de personas ya están ganando dinero con Aviator.  
+        Tú también puedes hacerlo. ¡Es fácil y rápido!</p>
+        <p>✅ ¡Regístrate y recibe un bono de 150% hoy!</p>
+        <a class="cta-button" href="https://t.me/GanaenAviador" target="_blank">ÚNETE AL CANAL</a>
+    </div>
+</body>
+</html>
